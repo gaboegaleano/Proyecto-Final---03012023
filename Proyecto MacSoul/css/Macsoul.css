@@ -1,0 +1,73 @@
+
+footer {
+    margin-top: 5rem;
+    background-color: #037cd3;
+}
+
+h3{
+    margin-top: 20px;
+    color: #037cd3;
+}
+
+.encabezado {
+    background: url(../css/Encabezado.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 150px;
+
+ }
+
+ .Telefono{
+    margin: 20px;
+    color: white;
+    background-color: #037cd3;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+.lista-Servicios{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-Servicios li{
+    margin: 4px 0;
+}
+
+.lista-Servicios li a{
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-Servicios li a:hover{
+    color: #212529;
+    background-color: #dadada;
+}
+
+.lista-Servicios li a img{
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-Servicios li a:hover img{
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.carousel-item{
+    background-color:#a0a0a0;
+}
+
+.clientes{
+    text-align: center;
+    padding: 20px 70px;
+}
